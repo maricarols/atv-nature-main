@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+html {
+    font-size: calc(10px + 0.390625vw);
+    font-family: "Open Sans", sans-serif;
+}
+header a{
+    text-decoration: none;
+    color: #ffffff;
+}
+header nav{
+    display: flex;
+    background-color: #3B8686;
+    justify-content: space-between;
+}
+header ul{
+    display: flex;
+    margin: 0 7vw 0 0;
+}
+.nature img {
+  padding: 3vw 2vw 3vw 7vw;
+}
+header li{
+    margin: 3vw 2vw 3vw 2vw;
+}
+span.atual{
+    background-color: rgba(255, 255, 255, 0.2 );
+    border-radius: 20px;
+    padding: 0.5vw 2vw 0.5vw 2vw;
+    margin-right: -10px;
+}
+section.banner h2{
+    font-size: 3rem;
+    color: white;
+    line-height: 3.7vw;
+    width: 30%;
+}
+section.banner{
+    padding: 30vw 0 5vw 7vw;
+    background:linear-gradient(rgba(128, 189, 154, 0.2), rgba(128, 189, 154, 0.2)), url(../src/back-banner.png) no-repeat center center;
+    background-size: cover;
+}
+span.viva{
+    background-color: rgba(58, 255, 255, 0.2);
+    padding: 1vw 1vw 0 1vw;
+
+}
+span.unica{
+    background-color: rgba(58, 255, 255, 0.2);
+    padding: 0 1vw 0 1vw;
+}
+section.segunda ul{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+section.segunda{
+    padding: 3vw 11vw 3vw 10vw;
+}
+section.segunda ul li{
+    width: 25%;
+    
+}
+section.segunda ul li span{
+    font-size: 4rem;
+    color: #3B8686;
+}
+section.segunda ul li h3{
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin: 20px 0 20px 0;
+}
+section.segunda ul li p{
+    color: #747474;
+}
+section.segunda ul li button{
+    background-color: #3B8686;
+    border-style: none;
+    padding: 9px 20px 9px 20px;
+    font-size: large;
+    color: white;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 3vw;
+}
+section.bannerDois{
+    background: linear-gradient(rgba(121, 189, 154, 0.2), rgba(121, 189, 154, 0.2)), url(../src/back-numeros.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 6.4vw 0 6.4vw 0;
+}
+section.bannerDois ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 12vw 0 12vw;
+}
+section.bannerDois ul li{
+    text-align: center;
+}
+section.bannerDois ul li span{
+    font-size: 4rem;
+}
+section.bannerDois ul li p{
+    font-size: 2rem;
+    color: white;
+    font-weight: 600;
+    margin-top: 1vw;
+}
+section.atividades div.texto{
+    width: 30%;
+    margin-right: 10vw;
+}
+section.atividades{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5vw;
+    margin-top: 5vw;
+}
+section.atividades h3{
+    font-size: 2rem;
+    color: #0B486B;
+}
+section.atividades p{
+    margin-top: 2vw;
+    color: #747474;
+    line-height: 130%;
+    margin-bottom: 2vw;
+}
+section.atividades button{
+    border-style: none;
+    background-color: #0B486B;
+    color: white;
+    padding: 10px;
+    font-size: 1rem;
+    margin-right: 1vw;
+}
+footer{
+    background-color: #3B8686;
+    padding-top: 3vw;
+}
+footer nav{
+    display: flex;
+    justify-content: space-around;
+}
+footer nav div.sociais ul{
+    display: flex;
+}
+footer nav div.sociais ul li{
+    margin: 0 10px 10px 10px;
+    font-size: 3rem;
+}
+footer nav div.sociais p{
+    margin-top: 20px;
+    color: #ffffff;
+}
+footer nav div{
+    color: white;
+}
+footer nav div.contato h4{
+    margin-bottom: 10px;
+}
+footer nav div.contato p{
+    margin-top: 10px;
+}
+footer nav div.lista ul li{
+    margin: 20px;
+}
